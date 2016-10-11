@@ -23,19 +23,19 @@ define('WP_MEMORY_LIMIT', '64M');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'appimagi_appimag');
+define('DB_NAME', 'appimagine');
 
 /** MySQL database username */
-define('DB_USER', 'appimagi_appimag');
+define('DB_USER', 'b89d061053054f');
 
 /** MySQL database password */
-define('DB_PASSWORD', ']pm1@3P77S');
+define('DB_PASSWORD', 'bece86b1');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'ap-cdbr-azure-southeast-b.cloudapp.net');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
