@@ -1,0 +1,346 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="Software Company Pondicherry Bangalore UAE Mobile APPs ERP CRM Web Desgin" />
+    <meta name="description" content="Appimagine is a global Software Development Company provides services in Custom Software, Cloud Consulting, Web and Mobile Application development" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    
+
+  
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+  
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+  
+        
+        <script type="text/javascript" src="js/main.js"></script>
+ 
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+    <link rel="stylesheet" href="css/clientlibs.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+   
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.png">
+
+    <link rel="canonical" href="#" />
+    <title>Appimagine - Custom Software development, Cloud Consulting, Web & Mobile Application development</title>
+  
+      <style>
+        .header__navigation{
+            margin:0px -20px !important;
+        }
+          <!--  ul.header__navigation.navigation-inactive {
+    margin: 0!important;
+} -->
+    .breadcrumb__mobile {
+    margin-top: 20px;
+    }
+	.drop-two{
+	
+    
+	width:25%;
+	}
+	.mobileborder{
+	 border-bottom: 1px solid #dcdcdc;
+	}
+	.nomobileborder{
+	}
+	
+.hide-desktop { 
+    /* non-gmail */
+    display: none; 
+
+   
+
+    /* outlook */
+    mso-hide: all;
+
+}
+@media (max-width: 1280px) {
+    .hide-desktop {
+        display: block !important;
+       
+        max-height: none !important;
+      
+    }
+}
+    </style>
+    
+  
+</head>
+
+<body  ng-app="cacomApp" ng-class="{'no-scroll' : noScroll, 'no-scroll-mobile' : noScrollMobile}">
+
+    <div class="header"  onmouseleave="hideElem()" >
+
+        <div class="header-bar" headroom tolerance="5">
+            <div class="header__container" ng-controller="headerController">
+              
+                <a href="" class="header__logo" ><img src="images/appimagine logo.png" ></a>
+				<ul class="header__navigation" ng-class="navigationState ? 'navigation-active' : 'navigation-inactive'" ng-cloak >
+                        <li  onmouseover="showElem()" >
+                            <a href="" target="_self" >
+                         About
+                            </a>
+                        </li>
+						 <li onmouseover="showElem1()"  >
+                            <a href="" target="_self"  >
+                         Services & Support
+                            </a>
+                        </li>	
+                        <li onmouseover="hideElem()">
+                            <a href="digital" target="_self" >
+                        Digital 
+                            </a>
+                        </li>
+                       <li onmouseover="hideElem()">
+                            <a href="case-study" target="_self" >
+                        Case-Studies  
+                            </a>
+                        </li>
+                        <li onmouseover="hideElem()">
+                            <a href="career" target="_self" >
+                        Career
+                            </a>
+                        </li>
+                        <li onmouseover="hideElem()">
+                            <a href="contact-us" target="_self" >
+                        Contact
+                            </a>
+                        </li>	
+						
+                </ul>
+					
+					
+
+                <ul class="header__navigation" ng-class="navigationState ? 'navigation-active' : 'navigation-inactive'" ng-cloak>                       
+                        <div class="dropdown"  id ="sub"  ng-cloak>
+                            <div class="dropdown-container">
+                                <h4 class="dropdown-header">About</h4>
+                                <ul >
+                        <li>
+                            <a href="about-us" target="_self"  >
+                         Overview
+                            </a>
+                        </li>
+						 <li >
+                            <a href="our-approach" target="_self" >
+                       Our approach
+                            </a>
+                        </li>
+                        <li >
+                            <a href="career" target="_self" >
+                       Career
+                            </a>
+                        </li>
+						</ul>
+						</div>
+						</div>
+						<div class="dropdown"  id ="service"  >
+                            <div class="dropdown-container">
+                                <h4 class="dropdown-header">Services & Support</h4>
+								<div style="width:30%;height:150px;">
+                               <ul >
+						<li>
+                            <a href="cloud-services" target="_self" class="children">
+                        Cloud Services
+                            </a>
+                        </li>
+                        <li >
+                            <a href="cloud-advisory" target="_self" >
+                        Cloud Advisory 
+                            </a>
+                        </li>
+                        <li >
+                            <a href="cloud-migration" target="_self" >
+                          Cloud Migration and Deployments 
+                            </a>
+                        </li>	
+                         <li >
+                            <a href="devops" target="_self" >
+                        DevOps
+                            </a>
+                        </li>
+                         <li >
+                            <a href="managed-services" target="_self" >
+                        Managed Services
+                            </a>
+                        </li>
+						
+						</ul>
+						</div>
+						
+						
+						 <div  class="drop-two">
+						<ul style="margin-left:150%;" >
+                         <li style="margin-top:-147px;width:178px! important;">
+                            <a href="application-services" target="_self" class="children " >
+                       Application Services
+                            </a>
+                        </li>	
+                         <li style="margin-top:30px;width:178px! important;" class="" >
+                            <a href="interactive" target="_self" class="children " >
+                      Interactive Developments
+                            </a>
+                        </li>	
+                        </ul> 
+                        </div>						
+						</div>
+						</div>                  
+                   
+                </ul>
+ <!-- For mobile view -->
+                <span class="header__menu " ng-class="navigationState ? ' icon-close' : ' icon-hamburger'" ng-click="toggleMenu();" ng-cloak></span>
+				
+				 <ul  ng-show="navigationState" id="showmenu" class="header__navigation hide-desktop navigation-active"  ng-cloak>
+				  <li class="first ">
+                    <a   ng-click="togglesubMenu()" class="mobileborder">About</a>
+					
+					<div ng-show="submenu" class="dropdown"   ng-cloak>
+                            <div class="dropdown-container">
+                               
+                                <ul ng-mouseleave="hidesubmenu()" >
+                        <li>
+                            <a href="about-us" target="_self"  >
+                         Overview
+                            </a>
+                        </li>
+						 <li >
+                            <a href="our-approach" target="_self" >
+                       Our approach
+                            </a>
+                        </li>
+                        <li >
+                            <a href="career" target="_self" >
+                       Career
+                            </a>
+                        </li>
+						</ul>
+						</div>
+						</div>
+                      <i class="header__icon-control" ng-class="submenu ? 'icon-collapse-alt' : 'icon-expand-alt'"  ></i>	
+                        
+						 <a  ng-click="toggleservicesubMenu()" class="mobileborder"> Services & Support</a>
+						 <span><i style="margin-top:60px;"class="header__icon-control" ng-class="servicesubmenu ? 'icon-collapse-alt' : 'icon-expand-alt'"></i> </span>
+						  
+								
+								<div ng-show="servicesubmenu" class="dropdown"   ng-cloak>
+                            <div class="dropdown-container">
+                               
+                                <ul>
+                        <li>
+                           <a href="cloud-services" target="_self" class="with-children"  ng-click="togglecloudmenu()"  >
+                       Cloud Services
+                            </a> <i style="margin-right:-15 ! important;" class="header__icon-control" ng-class="cloudmenu ? 'icon-collapse-alt' : 'icon-expand-alt'"  ></i> 
+                        </li>
+						
+						 <div ng-show="cloudmenu" class="dropdown"   ng-cloak>
+                            <div class="dropdown-container">
+                               
+                                <ul ng-mouseleave="hidesubmenu()" >
+								<li>
+                            <a href="cloud-services" target="_self"  >
+                            Overview 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cloud-advisory" target="_self"  >
+                            Cloud Advisory 
+                            </a>
+                        </li>
+						 <li >
+                            <a href="cloud-migration" target="_self" >
+                       Cloud Migration and Deployments 
+                            </a>
+                        </li>
+                        <li >
+                            <a href="devops" target="_self" >
+                        DevOps
+                            </a>
+                        </li>
+						<li >
+                            <a href="managed-services" target="_self" >
+                         Managed Services
+                            </a>
+                        </li>
+						</ul>
+						</div>
+						</div>
+						 
+						 <li style="margin-top:10px;" >
+                            <a href="application-services" target="_self" class="with-children " >
+                      Application Services
+                            </a>
+                        </li>
+                        <li >
+                            <a href="interactive" target="_self" class="with-children " ng-mouseleave="hideservicesubMenu()">
+                       Interactive Deployments
+                            </a>
+                        </li>
+						</ul>
+						</div>
+						</div>
+								
+								 
+		
+		                <a href="digital" class="mobileborder">Digital</a> 
+			            <a href="case-study" class="mobileborder">Case Studies</a> 
+				        <a href="career" class="mobileborder">Career</a> 
+				        <a href="contact-us" class="mobileborder">Contact</a> 
+				  </li> 
+				  </ul>
+				  
+				   
+                
+                <span class="header__search-link"></span>
+               
+                <span class="header__contact" ng-if="contactModulePresent" ng-cloak ng-click="toggleContact()">
+                   <i class="contact-icon phone" ng-class="contactModuleVisible ? 'icon-phone-alt' : 'icon-phone'"></i>
+                </span>
+                <span class="header__contact" ng-if="chatModulePresent">
+                   <img src="images/chat-32.ico" id="newChat" style="visibility: hidden;">
+                    <i class="contact-icon" ng-class="$storage.chatSession.visible ? 'icon-chat-alt' : 'icon-chat'" id="chatImg" onclick="iconChat();"></i>
+                </span>
+                <!-- search overlay -->
+              
+                <!-- account dropdown template -->
+                
+            </div>
+        </div>
+    </div>
+ <script>
+ 
+ document.ready = function() {            
+        document.getElementById("service").style.visibility = "hidden"; 
+		 document.getElementById("sub").style.visibility = "hidden"; 
+		 
+    }
+        function iconChat(){
+            $('#chatImg').hide();
+            document.getElementById('newChat').style.visibility="visible";
+            window.location="http://www.appimagine.com/contact-us";
+        }
+		function hideElem() {
+      document.getElementById("sub").style.visibility = "hidden"; 
+	  document.getElementById("service").style.visibility = "hidden"; 
+}
+
+function showElem() {
+    document.getElementById("sub").style.visibility = "visible"; 
+	  document.getElementById("service").style.visibility = "hidden"; 
+}
+function hideElem1() {
+    document.getElementById("service").style.visibility = "hidden"; 
+}
+
+function showElem1() {
+    document.getElementById("service").style.visibility = "visible"; 
+}
+		
+		
+    </script>
